@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-16 13:08:22.089398",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "emp_id",
+  "emp_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "emp_id",
+   "fieldtype": "Int",
+   "label": "emp id"
+  },
+  {
+   "fieldname": "emp_name",
+   "fieldtype": "Data",
+   "label": "emp name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-16 13:08:22.089398",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "Hospital Employees",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

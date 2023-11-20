@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{books_name}-{##}",
+ "creation": "2023-11-03 11:58:01.961909",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "books_name",
+  "name_of_publisher",
+  "date_of_published",
+  "is_global",
+  "is_local"
+ ],
+ "fields": [
+  {
+   "fieldname": "books_name",
+   "fieldtype": "Data",
+   "label": "Books Name"
+  },
+  {
+   "fieldname": "name_of_publisher",
+   "fieldtype": "Data",
+   "label": "Name of publisher"
+  },
+  {
+   "fieldname": "date_of_published",
+   "fieldtype": "Date",
+   "label": "Date of published"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_global",
+   "fieldtype": "Check",
+   "label": "Is global"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_local",
+   "fieldtype": "Check",
+   "label": "Is local"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-03 13:22:29.094137",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "Library management System",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-20 17:12:21.167121",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "quarter",
+  "column_break_e19nl",
+  "year",
+  "section_break_7lgut",
+  "section_break_wp4qd",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "label": "Year",
+   "options": "2020-2021\n2021-2022\n2022-2023\n2023-2024"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_e19nl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7lgut",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_wp4qd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quarter",
+   "fieldtype": "Select",
+   "label": "Quarter",
+   "options": "January-March\nApril-June\nJuly-September\nOctober-December"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-20 18:30:29.367469",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "Valid date task",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

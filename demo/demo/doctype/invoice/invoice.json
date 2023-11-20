@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{Supplier}-{##}",
+ "creation": "2023-10-27 17:00:06.067687",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier",
+  "state",
+  "state_code",
+  "gstin",
+  "invoice_no",
+  "invoice_date",
+  "invoice_amount",
+  "reserver_charge_applicable",
+  "details_of_buyer",
+  "buyer_state",
+  "buyer_state_code",
+  "buyer_gstin",
+  "invoice_child_table_link",
+  "total_taxable_value"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Supplier"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "state_code",
+   "fieldtype": "Data",
+   "label": "State code"
+  },
+  {
+   "fieldname": "gstin",
+   "fieldtype": "Data",
+   "label": "GSTIN"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Currency",
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "reserver_charge_applicable",
+   "fieldtype": "Select",
+   "label": "Reserver Charge Applicable",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "details_of_buyer",
+   "fieldtype": "Data",
+   "label": "Details of buyer"
+  },
+  {
+   "fieldname": "buyer_state",
+   "fieldtype": "Data",
+   "label": "Buyer State"
+  },
+  {
+   "fieldname": "buyer_state_code",
+   "fieldtype": "Data",
+   "label": "Buyer State code"
+  },
+  {
+   "fieldname": "buyer_gstin",
+   "fieldtype": "Data",
+   "label": "Buyer GSTIN"
+  },
+  {
+   "fieldname": "invoice_child_table_link",
+   "fieldtype": "Table",
+   "label": "Invoice Child table link",
+   "options": "Invoice Child table"
+  },
+  {
+   "fieldname": "total_taxable_value",
+   "fieldtype": "Float",
+   "label": "Total taxable_value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-30 17:14:04.179512",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

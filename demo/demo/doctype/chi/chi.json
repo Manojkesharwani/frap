@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-07 18:22:36.637913",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "required_weight",
+  "in_weight",
+  "button",
+  "click",
+  "dummy"
+ ],
+ "fields": [
+  {
+   "fieldname": "required_weight",
+   "fieldtype": "Data",
+   "label": "Required Weight"
+  },
+  {
+   "default": "2000",
+   "fieldname": "in_weight",
+   "fieldtype": "Data",
+   "label": "In Weight"
+  },
+  {
+   "default": "0",
+   "fieldname": "button",
+   "fieldtype": "Check",
+   "label": "button"
+  },
+  {
+   "fieldname": "click",
+   "fieldtype": "Button",
+   "label": "click"
+  },
+  {
+   "fieldname": "dummy",
+   "fieldtype": "Data",
+   "label": "dummy"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-08 09:36:34.898972",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "chi",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{username}-{##}",
+ "creation": "2023-10-31 11:44:22.315003",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "api_acess_token",
+  "username",
+  "password",
+  "api_access"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "api_acess_token",
+   "fieldtype": "Check",
+   "label": "Api Acess token"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "username "
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "password"
+  },
+  {
+   "default": "0",
+   "fieldname": "api_access",
+   "fieldtype": "Check",
+   "label": "Api Access"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-10-31 11:45:20.919682",
+ "modified_by": "Administrator",
+ "module": "demo",
+ "name": "Api Acess token",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
